@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rufiz Mardan</title>
+    <!-- Bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Linking styles.css sheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Activating Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" 
+      rel="stylesheet"
+    />
+
+    <!-- Adding FONTAWESOME to the project -->
+    <script
+      src="https://kit.fontawesome.com/3242871690.js"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body>
+    <div class="bg">
+      <div>
+        <nav class="navbar navbar-expand-md fixed-top navigation-bar">
+          <div class="comp-name"><a class="navbar-brand top-text-rufiz" href="/">Rufiz Mardan</a></div>
+          <button             
+          class="navbar-toggler nav-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <a class="navbar-brand top-text-rufiz" href="/">Rufiz Mardan</a> -->
+          <div
+            class="collapse navbar-collapse top-navigation-bar"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link top-text" href="#aboutME">ABOUT ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link top-text" href="#portfolio">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link top-text" href="#contactME">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="middle-text">
+        <h1 class="middle-text-rufiz">Rufiz Mardan</h1>
+        <p class="jobDesc">Data Analyst | Data Scientist</p>
+      </div>
+    </div>
+    <div class="dataQuote">
+      <i class="fas fa-quote-right"></i> Without data you are just another
+      person with an opinion. <i class="fas fa-quote-left"></i>
+      <p><span class="quoteAuthor"> W. Edwards Deming</span></p>
+    </div>
+    <div id="portfolio" class="mid-container">
+      <h3 class="servicesTag">PROJECTS</h3>
+      <p>
+        As a Data Science and Machine Learning enthusiast, I enjoy building Data Science projects.
+        I frequently use datasets from Kaggle.com or I use Webscraping Tools such as Scrapy to obtain data.
+      </p>
+      <p>
+        Here below you can see some of my projects posted in Github and Tableau Public.
+      </p>
+    </div>
+    <div class="container projectContainer">
+      <div class="card"">
+        <img class="card-img-top" src="https://images.deepai.org/django-summernote/2019-03-26/03981c56-f251-460c-b5e7-5028cf7be5db.jpg" alt="regressionImg">
+        <div class="card-body">
+          <h5 class="card-title">Predicting Car Prices</h5>
+          <p class="card-text">Using Multi Linear Regression and Random Forest Regression to predict car prices.</p>
+          <a href="https://github.com/rufiz/projects/blob/14860903443036264bdc6e9a716987edfdc3a840/car_price_prediction_lin_regression/car_price_prediction.ipynb" class="btn btn-info">Go to Project</a>
+        </div>
+      </div>
+      <div class="card"">
+        <img class="card-img-top heartAttackImg" src="https://www.kdnuggets.com/wp-content/uploads/toy-binary-dataset.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Heart Attack Prediction</h5>
+          <p class="card-text">Predicting if the individual has a heart attack using Naive Bayes and KNearest Neighbors Classifier.</p>
+          <a href="https://github.com/rufiz/projects/blob/1d89a66753ec56eb82a2439faf0a2a17df2eeb72/heart_attack_prediction_classification/heart_attack_prediction.ipynb" class="btn btn-info">Go to Project</a>
+        </div>
+      </div>
+      <div class="card"">
+        <img class="card-img-top" src="https://anthonysmoak.files.wordpress.com/2018/07/9.png?w=1093" alt="classificationImg">
+        <div class="card-body">
+          <h5 class="card-title">User Segmentation (Tableu Dashboard)</h5>
+          <p class="card-text">Building a dashboard from survey responses</p>
+          <a href="https://public.tableau.com/shared/YPFM894RP?:display_count=y&:origin=viz_share_link" class="btn btn-info">Go to Project</a>
+        </div>
+      </div>
+      <div class="card"">
+        <img class="card-img-top" src="https://miro.medium.com/max/2460/1*KHs1Chs6TCJDTIIQVyIJxg.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Star Type Classification (Neural Network)</h5>
+          <p class="card-text">Multiclass Classification using Neural Network.</p>
+          <a href="https://github.com/rufiz/projects/blob/a86ab3e0425933279a6dbfc95e140de579e17731/star_type_classification/star_type_classification.ipynb" class="btn btn-info">Go to Project</a>
+        </div>
+      </div>
+    </div>
+    <div id="aboutME" class="aboutMe">
+      <div class="container aboutMeContainer">
+        <h3 class="aboutmeTag">ABOUT ME</h3>
+        <img 
+        src="images/rufizImg3.jpg"
+        alt="rufizPic"
+        class="rufizPic">
+        <div class="aboutMeText">
+          <p>
+            Hi there! My name is Rufiz. I am in the last semester of my Bachelor's Degree in science (International Business and Economics, Otto von Guericke University). Currently, I work as a student in the Engineering Department in Oerlikon AM Europe.
+          </p>
+          <p>
+            I prefer to look at datasets as big puzzles that are waiting to be solved. Finding the patterns that are not visible is the objective.
+          </p>
+          <p>
+            <span class="handName">Rufiz Mardan</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="contactME" class="contact-me">
+      <h2 class="get-in-touch getTouch">Get In Touch</h2>
+      <p class="awesome-ml getTouch">
+        Feel free to contact me if you are interested in my work!
+      </p>
+      <button type="button" class="btn btn-outline-dark contactIcon">
+        <a class="contactIcon gmailIcon" href="mailto:rufiz.mardan@gmail.com">
+          Gmail <i class="fab fa-google"></i>
+        </a>
+      </button>
+    </div>
+    <div class="bottom-footer">
+        <p class="foot-ptag">© 2021 Rufiz Mardan.</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
+          $(".navigation-bar").stop().animate({
+            "opacity": "1",
+          }, 200);
+        } else if ($(this).scrollTop() === 0) {
+          $(".navigation-bar").stop().animate({
+            "opacity": "0",
+          }, 200);
+        }
+      });
+
+      $(window).
+
+      $('a[href^="#"]').click(function () {
+        $('html, body').animate({
+          scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+        }, 500);
+
+        return false;
+      });
+    </script>
+  </body>
+</html>
