@@ -1,1 +1,1 @@
-https://rufiz.github.io/rufizmardan/
+rufizmardan.de
