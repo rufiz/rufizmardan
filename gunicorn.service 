@@ -1,0 +1,13 @@
+[Unit]
+Description=rufiz personal website 
+After=network.target
+
+[Service]
+User=rufizm
+Group=rufizm
+WorkingDirectory=/home/rufiz_personal_site/app/src/
+Environment="PATH=/home/rufiz_personal_site/app/venv/bin"
+ExecStart=gunicorn -w 4 server:app --bind 0.0.0.0:8000
+
+[Install]
+WantedBy=multi-user.target
